@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR Portal</title>
+    <link rel="icon" href="images/icon.png">
+    <style>
+        body{
+            margin:0;
+            padding:0;
+            background-color:#BBDBF4;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        header,footer{
+            background-color:#548fbc;
+            color: aliceblue ;
+            text-align: center;
+            padding: 2px;
+        }
+
+        .navitem{
+            display: inline;
+            padding: 20px
+        }
+        .navitem a{
+            text-decoration: none;
+            color: rgb(240, 248, 255);
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Welcome to Company HR Portal</h1>
+        <nav>
+            <ul>
+                <li class="navitem"><a href="#employee-registration">Employee Registration</a></li>
+                <li class="navitem"><a href="#employee-directory">Employee Directory</a></li>
+                <li class="navitem"><a href="#contact-us">Contact Us</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <image src="images/image1.jpg" width="100%" height="400"></image>
+
+    <section id="employee-registration"> 
+        <h2>Employee Registration</h2>
+        <p>Fill the below form to register as an <em>employee</em>.</p>
+        <form>
+            <label for="Name">Name: </label>
+            <input type="text" id="Name"><br>
+            <br><label for="Email">Email id: </label>
+            <input type="email" id="Email"><br>
+            <br><label for="password">Password: </label>
+            <input type="password" id="password"><br>
+            <br><label for="age">Age: </label>
+            <input type="number" id="age"><br>
+            <br><label for="role">Select Role: </label>
+            <select>
+                <option>Software Engineer</option>
+                <option>Product Manager</option>
+                <option>Designer</option>
+                <option>HR Representative</option>
+            </select><br>
+            <br><label for="joiningdate">Select Joining Date: </label>
+            <input type="date" id="joiningdate"><br>
+            <br><input type="submit">
+            <br><input type="reset">
+        </form>
+    </section>
+
+    <section id="employee-directory">
+        <h2>Employee Directory</h2>
+        <p>List of all Registered Employees</p>
+        <table>
+            <tr>
+                <th>Employee ID</th>
+                <th>Employee Name</th>
+                <th>Employee Role</th>
+            </tr>
+            <tr>
+                <td>123</td>
+                <td>Jai khanna</td>
+                <td>Product Manager</td>
+            </tr>
+            <tr>
+                <td>833</td>
+                <td>Anjana Saxena</td>
+                <td>Software Manager</td>
+            </tr>
+            <tr>
+                <td>726</td>
+                <td>Bhanu Gupta</td>
+                <td>Designer</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="contact-us">
+        <h2>Contact Us</h2>
+        <p>You can contact us at company@official.com or visit as between 9AM - 6PM</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3497.9901858536177!2d77.11366877529362!3d28.74970997560087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0127a29458bf%3A0x1e4aa7b5c1fbf385!2sAdministration%20Block!5e0!3m2!1sen!2sin!4v1717606113708!5m2!1sen!2sin" width="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Company Name</p>
+    </footer>
+
+</body>
+</html>

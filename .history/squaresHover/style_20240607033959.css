@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#main{
+    height: 50%;
+    width: 50%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.shape1{
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    border-style: solid;
+}
+.shape2{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(61, 42, 165);
+    border-style: solid;
+    border-radius: 50%;
+}
+.shape3{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(61, 165, 42);
+    border-style: solid;
+}

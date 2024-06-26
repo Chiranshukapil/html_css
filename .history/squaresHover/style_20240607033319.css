@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    display: ;
+}
+
+#main{
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+}
+
+.shape1{
+    height: 50%;
+    width: 50%;
+    background-color: brown;
+}
+.shape2{
+    height: 50%;
+    width: 50%;
+    background-color: rgb(61, 42, 165);
+}
+.shape3{
+    height: 50%;
+    width: 50%;
+    background-color: rgb(61, 165, 42);
+}

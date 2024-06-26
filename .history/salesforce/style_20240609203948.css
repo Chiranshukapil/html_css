@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+
+}
+
+#header{
+    width: 10%;
+    height: 100%;
+    position: fixed;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+}
+
+#fakeheader{
+    width: 10%;
+    height: 100%;
+}
+
+#page1{
+    width: 90%;
+    height: 100%;
+    background-color: blueviolet;
+}
+#page2{
+    width: 90%;
+    height: 100%;
+}
